@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-body_classifier = cv2.CascadeClassifier('Haarcascades/haarcascade_fullbody.xml')
+body_classifier = cv2.CascadeClassifier('../Haarcascades/haarcascade_fullbody.xml')
 
 video = cv2.VideoCapture('video/Pedestrian.mp4')
 

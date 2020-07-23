@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read in the cascade classifiers for face
-face_cascade = cv2.CascadeClassifier('Haarcascades/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('../Haarcascades/haarcascade_frontalface_default.xml')
 
 # create a function to detect face
 def detect_face(img):

@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read in the cascade classifiers for eyes
-eye_cascade = cv2.CascadeClassifier('Haarcascades/haarcascade_eye.xml')
+eye_cascade = cv2.CascadeClassifier('../Haarcascades/haarcascade_eye.xml')
 
 # create a function to detect eye
 def detect_eye(img):

@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read in the cascade classifiers for plate
-plate_cascade = cv2.CascadeClassifier('Haarcascades/haarcascade_russian_plate_number.xml')
+plate_cascade = cv2.CascadeClassifier('../Haarcascades/haarcascade_russian_plate_number.xml')
 
 # create a function to detect car plate
 def detect_plate(img):
